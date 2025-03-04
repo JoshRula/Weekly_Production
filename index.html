@@ -160,7 +160,9 @@
       formData.append("entry.1974477074", document.getElementById("clientPreviewDate").value);
       formData.append("entry.1870415428", document.getElementById("shipDate").value);
 
-      fetch("https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse", {
+https://docs.google.com/forms/d/e/1FAIpQLSfmDOFbv8Qyns2w30uMJ54HuFR_gTdwKnQgtZeJnAOT4mlV1A/viewform
+      
+      fetch("https://docs.google.com/forms/d/e/1FAIpQLSfmDOFbv8Qyns2w30uMJ54HuFR_gTdwKnQgtZeJnAOT4mlV1A/formResponse", {
         method: "POST",
         body: formData,
         mode: "no-cors"
